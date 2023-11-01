@@ -1,7 +1,41 @@
 # Who's that pokemon?
 
-## [Try the game here](https://marinsborg.github.io/who-is-that-pokemon/)
+Tenemos un juego que nos aparece la sombra de un pokemon, y tenemos que adivinar cúal es.
+Ponemos el nombre en el input y le damos al enter para comprobarlo
 
-### [Learn how to create "Who's that Pokemon?" with 70 lines of JavaScript.](https://www.marinsborg.com/simple-pokemon-guessing-game-javascript/)
+[Demo Funcional](https://marinsborg.github.io/who-is-that-pokemon/)
 
-Clone the repository and open index.html file to test the game.
+## Requisitos
+
+Nuestro programa falla en algunas partes. Revisa el código y hazte una idea general de como funciona. Para ello, fijate sobretodo:
+
+1. Nombre de las variables globales
+2. Nombre de las funciones
+3. El desarrollador ha dejado comentarios. Asegúrate de leerlos.
+4. Pon todos los console.log que consideres, o usa el depurador de JavaScript en Google Chrome para establecer puntos de parada
+
+### Errores detectados
+
+Corrige los siguientes errores detectados. Cada uno suele resolverse modificando una única línea de código. No tienes por qué resolverlos en orden
+
+1. la aplicación tan solo recupera 2 pokemons. Nos gustaría recuperar al menos los primeros 600 de la Pokedex
+2. A pesar de que pongamos bien el nombre del pokemon, si lo ponemos en mayúsculas, no nos cuenta como acierto. Encuentra la línea que provoca esto y corrigela
+3. Nos han pedido que añadamos un botón que ponga "Check". Al hacer click en el, debe hacer lo mismo que el hecho de pulsar el enter
+
+## Bonus divertido
+
+Fíjate en la función _playPokemonMp3_. Añade un listener con un evento adecuado para que, cuando el usuario haga click en el input de adivinar el pokemon, se ejecuta dicha función. Como pista, el evento que buscas tiene que ver con el _focus_ de un elemento.
+
+## Bonus difícil
+
+¿Dirías que la función getRandomIntInclusive es adecuada para nuestro programa?
+Para averiguarlo
+
+1. Establece el límite de pokemons a 1 (siempre recupera a bulbasaur de la API)
+2. Fíjate si se produce algún error al recargar la página
+
+¿Qué está sucediendo?
+
+## Motivación
+
+Muchas veces vamos a tener que entender código, más o menos bien hecho, que no es nuestro. Es importante tomar soltura en este tipo de ejercicios.
