@@ -18,11 +18,13 @@
       <img id="sprite">
       <input type="text" placeholder="Who's that Pokemon?" id="guess">
       <br>
-      <span id="streak">Streak: 0</span>
+      <div style="display: flex; align-items: center; gap: 1rem">
+        <span id="streak">Streak: 0</span>
+        <button onclick="checkGuess()">
+          Check Pokemon
+        </button>
+      </div>
     </div>
-    <button onclick="checkGuess()">
-      Check
-    </button>
     <div class="column">
       <div>
         <span id="title">Who's that Pokemon?</span>

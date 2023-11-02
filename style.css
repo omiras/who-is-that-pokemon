@@ -2,8 +2,15 @@ body {
   background-image: url('background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed; 
-  background-position: center; 
+  background-attachment: fixed;
+  background-position: center;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-weight: 700;
+  
 }
 
 #sprite {
@@ -47,7 +54,7 @@ body {
 
 .row {
   display: flex;
-  flex-flow:row;
+  flex-flow: row;
   width: 100%;
   text-align: center;
 }
@@ -71,18 +78,23 @@ body {
   .row {
     flex-flow: column;
   }
+
   .column {
     width: 100%;
   }
+
   #guess {
     width: 90%;
   }
+
   #title {
     font-size: 32px;
   }
+
   #pokemon-name {
     font-size: 32px;
   }
+
   #sprite {
     height: 210px;
     width: 210px;
