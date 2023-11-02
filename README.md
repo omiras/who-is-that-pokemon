@@ -3,7 +3,7 @@
 Tenemos un juego que nos aparece la sombra de un pokemon, y tenemos que adivinar cúal es.
 Ponemos el nombre en el input y le damos al enter para comprobarlo.
 
-[Demo Funcional](https://marinsborg.github.io/who-is-that-pokemon/)
+[Demo Funcional](https://omiras.github.io/who-is-that-pokemon/)
 
 ## Requisitos
 
