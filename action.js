@@ -1,7 +1,7 @@
 //for implementation details visit marinsborg.com
 var apiUrl = "https://pokeapi.co/api/v2/pokemon/?"; //API base URL
 var offset = 0;
-var limit = 2; //limiting Pokemons - sprites are not numbered properly after 665
+var limit = 10; //limiting Pokemons - sprites are not numbered properly after 665
 var pokemonUrl = apiUrl + "limit=" + limit + "&offset=" + offset; //complete URL with limit
 var spriteUrl =
   "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"; //base URL from which sprites are fetched
