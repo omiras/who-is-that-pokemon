@@ -1,13 +1,13 @@
 # Who's that pokemon?
 
 Tenemos un juego que nos aparece la sombra de un pokemon, y tenemos que adivinar cúal es.
-Ponemos el nombre en el input y le damos al enter para comprobarlo
+Ponemos el nombre en el input y le damos al enter para comprobarlo.
 
 [Demo Funcional](https://marinsborg.github.io/who-is-that-pokemon/)
 
 ## Requisitos
 
-Nuestro programa falla en algunas partes. Revisa el código y hazte una idea general de como funciona. Para ello, fijate sobretodo:
+Nuestro programa falla en algunas partes y queremos añadir una funcionalidad nueva. Revisa el código y hazte una idea general de como funciona. Para ello, fijate sobretodo:
 
 1. Nombre de las variables globales
 2. Nombre de las funciones
@@ -19,7 +19,7 @@ Nuestro programa falla en algunas partes. Revisa el código y hazte una idea gen
 Corrige los siguientes errores detectados. Cada uno suele resolverse modificando una única línea de código. No tienes por qué resolverlos en orden
 
 1. la aplicación tan solo recupera 2 pokemons. Nos gustaría recuperar al menos los primeros 600 de la Pokedex
-2. A pesar de que pongamos bien el nombre del pokemon, si lo ponemos en mayúsculas, no nos cuenta como acierto. Encuentra la línea que provoca esto y corrigela
+2. A pesar de que pongamos bien el nombre del pokemon, si lo ponemos en mayúsculas, no nos cuenta como acierto. Encuentra la línea que provoca esto y corrígela
 3. Nos han pedido que añadamos un botón que ponga "Check". Al hacer click en el, debe hacer lo mismo que el hecho de pulsar el enter
 
 ## Bonus divertido
@@ -38,4 +38,4 @@ Para averiguarlo
 
 ## Motivación
 
-Muchas veces vamos a tener que entender código, más o menos bien hecho, que no es nuestro. Es importante tomar soltura en este tipo de ejercicios.
+Muchas veces vamos a tener que entender código, más o menos bien hecho, que no es nuestro. Es importante tomar soltura en este tipo de situaciones.
