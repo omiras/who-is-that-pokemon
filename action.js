@@ -27,6 +27,8 @@ function playPokemonMp3() {
   audio.play();
 }
 
+guess.addEventListener("focusin", playPokemonMp3);
+
 //function that fetched Pokemon data from the API
 const fetchPokemonData = async function (url) {
   return fetch(url).then((response) => response.json());
