@@ -1,7 +1,7 @@
 //for implementation details visit marinsborg.com
 var apiUrl = "https://pokeapi.co/api/v2/pokemon/?"; //API base URL
 var offset = 0;
-var limit = 2; //limiting Pokemons - sprites are not numbered properly after 665
+var limit = 600; //limiting Pokemons - sprites are not numbered properly after 665
 var pokemonUrl = apiUrl + "limit=" + limit + "&offset=" + offset; //complete URL with limit
 var spriteUrl =
   "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"; //base URL from which sprites are fetched
@@ -40,7 +40,7 @@ var main = async function () {
 
 //function that compares player's guess with Pokemon name and based on that either increases or resets streak
 function checkGuess() {
-  if (pokemonName.toLowerCase() === guess.value) {
+  if (pokemonName.toLowerCase() === guess.value.toLowerCase()) {
     streak++; //correct guess - increase streak by one
   } else {
     streak = 0; //wrong guess - reset streak
